@@ -1,5 +1,7 @@
 #include <unistd.h>
 
+// the principle is to go to the index of my tab determine by 
+// the value of the encounter characters and put 1 or let a 0 (this technique works with others exos like inter)
 int main (int ac, char **av)
 {
 	if (ac == 3)
